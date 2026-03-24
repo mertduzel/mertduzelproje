@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Finans Hesaplamaları</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="sayfa-kapsayici">
+    <a href="index.html" class="geri-btn">← Ana Sayfa</a>
+
+    <div class="sayfa-baslik">
+      <h1>Finans Hesaplamaları</h1>
+      <p>Temel finans işlemleri</p>
+    </div>
+
+    <div class="hesaplama-grid">
+      <div class="hesaplama">
+        <h3>Basit Faiz</h3>
+        <input id="bfP" type="number" placeholder="Ana Para">
+        <input id="bfR" type="number" placeholder="Faiz %">
+        <input id="bfT" type="number" placeholder="Yıl">
+        <button onclick="basitFaiz()">Hesapla</button>
+        <p id="sonucBF"></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

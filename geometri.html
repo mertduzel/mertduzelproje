@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Geometri Hesaplamaları</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="sayfa-kapsayici">
+    <a href="index.html" class="geri-btn">← Ana Sayfa</a>
+
+    <div class="sayfa-baslik">
+      <h1>Geometri Hesaplamaları</h1>
+      <p>Alan ve hacim hesaplamaları</p>
+    </div>
+
+    <div class="hesaplama-grid">
+      <div class="hesaplama">
+        <h3>Dikdörtgen Alanı</h3>
+        <input id="adEn" type="number" placeholder="En">
+        <input id="adBoy" type="number" placeholder="Boy">
+        <button onclick="alanDikdortgen()">Hesapla</button>
+        <p id="sonucAD"></p>
+      </div>
+
+      <div class="hesaplama">
+        <h3>Üçgen Alanı</h3>
+        <input id="auTaban" type="number" placeholder="Taban">
+        <input id="auYuk" type="number" placeholder="Yükseklik">
+        <button onclick="alanUcgen()">Hesapla</button>
+        <p id="sonucAU"></p>
+      </div>
+
+      <div class="hesaplama">
+        <h3>Daire Alanı</h3>
+        <input id="adR" type="number" placeholder="Yarıçap">
+        <button onclick="alanDaire()">Hesapla</button>
+        <p id="sonucADaire"></p>
+      </div>
+
+      <div class="hesaplama">
+        <h3>Küp Hacmi</h3>
+        <input id="hkKenar" type="number" placeholder="Kenar">
+        <button onclick="hacimKup()">Hesapla</button>
+        <p id="sonucHK"></p>
+      </div>
+
+      <div class="hesaplama">
+        <h3>Dikdörtgenler Prizması Hacmi</h3>
+        <input id="hdEn" type="number" placeholder="En">
+        <input id="hdBoy" type="number" placeholder="Boy">
+        <input id="hdYuk" type="number" placeholder="Yükseklik">
+        <button onclick="hacimDikdortgen()">Hesapla</button>
+        <p id="sonucHD"></p>
+      </div>
+
+      <div class="hesaplama">
+        <h3>Silindir Hacmi</h3>
+        <input id="hsR" type="number" placeholder="Yarıçap">
+        <input id="hsH" type="number" placeholder="Yükseklik">
+        <button onclick="hacimSilindir()">Hesapla</button>
+        <p id="sonucHS"></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sağlık Hesaplamaları</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="sayfa-kapsayici">
+    <a href="index.html" class="geri-btn">← Ana Sayfa</a>
+
+    <div class="sayfa-baslik">
+      <h1>Sağlık Hesaplamaları</h1>
+      <p>Beden ve yaş hesaplamaları</p>
+    </div>
+
+    <div class="hesaplama-grid">
+      <div class="hesaplama">
+        <h3>BMI (Vücut Kitle İndeksi)</h3>
+        <input id="bmiKilo" type="number" placeholder="Kilo (kg)">
+        <input id="bmiBoy" type="number" placeholder="Boy (m)">
+        <button onclick="bmi()">Hesapla</button>
+        <p id="sonucBMI"></p>
+      </div>
+
+      <div class="hesaplama">
+        <h3>Yaş Hesaplama</h3>
+        <input id="yasDogum" type="number" placeholder="Doğum Yılı">
+        <button onclick="yas()">Hesapla</button>
+        <p id="sonucYas"></p>
+      </div>
+
+      <div class="hesaplama">
+        <h3>Hız - Zaman - Yol</h3>
+        <input id="hzYol" type="number" placeholder="Yol (km)">
+        <input id="hzZaman" type="number" placeholder="Zaman (saat)">
+        <button onclick="hiz()">Hesapla</button>
+        <p id="sonucHZ"></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

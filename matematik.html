@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Matematik Hesaplamaları</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="sayfa-kapsayici">
+    <a href="index.html" class="geri-btn">← Ana Sayfa</a>
+
+    <div class="sayfa-baslik">
+      <h1>Matematik Hesaplamaları</h1>
+      <p>Temel matematik işlemleri</p>
+    </div>
+
+    <div class="hesaplama-grid">
+      <div class="hesaplama">
+        <h3>Toplama</h3>
+        <input id="top1" type="number" placeholder="Sayı 1">
+        <input id="top2" type="number" placeholder="Sayı 2">
+        <button onclick="toplama()">Hesapla</button>
+        <p id="sonucToplama"></p>
+      </div>
+
+      <div class="hesaplama">
+        <h3>Çıkarma</h3>
+        <input id="cik1" type="number" placeholder="Sayı 1">
+        <input id="cik2" type="number" placeholder="Sayı 2">
+        <button onclick="cikarma()">Hesapla</button>
+        <p id="sonucCikarma"></p>
+      </div>
+
+      <div class="hesaplama">
+        <h3>Çarpma</h3>
+        <input id="carp1" type="number" placeholder="Sayı 1">
+        <input id="carp2" type="number" placeholder="Sayı 2">
+        <button onclick="carpma()">Hesapla</button>
+        <p id="sonucCarpma"></p>
+      </div>
+
+      <div class="hesaplama">
+        <h3>Bölme</h3>
+        <input id="bol1" type="number" placeholder="Bölünen">
+        <input id="bol2" type="number" placeholder="Bölen">
+        <button onclick="bolme()">Hesapla</button>
+        <p id="sonucBolme"></p>
+      </div>
+
+      <div class="hesaplama">
+        <h3>Yüzde Hesaplama</h3>
+        <input id="yuzde1" type="number" placeholder="Sayı">
+        <input id="yuzde2" type="number" placeholder="%">
+        <button onclick="yuzde()">Hesapla</button>
+        <p id="sonucYuzde"></p>
+      </div>
+
+      <div class="hesaplama">
+        <h3>Kare Alma</h3>
+        <input id="kare1" type="number" placeholder="Sayı">
+        <button onclick="kare()">Hesapla</button>
+        <p id="sonucKare"></p>
+      </div>
+
+      <div class="hesaplama">
+        <h3>Karekök</h3>
+        <input id="kok1" type="number" placeholder="Sayı">
+        <button onclick="karekok()">Hesapla</button>
+        <p id="sonucKok"></p>
+      </div>
+
+      <div class="hesaplama">
+        <h3>Üs Alma</h3>
+        <input id="us1" type="number" placeholder="Taban">
+        <input id="us2" type="number" placeholder="Üs">
+        <button onclick="us()">Hesapla</button>
+        <p id="sonucUs"></p>
+      </div>
+
+      <div class="hesaplama">
+        <h3>Faktöriyel</h3>
+        <input id="fak1" type="number" placeholder="Sayı">
+        <button onclick="faktoriyel()">Hesapla</button>
+        <p id="sonucFak"></p>
+      </div>
+
+      <div class="hesaplama">
+        <h3>Ortalama (3 Sayı)</h3>
+        <input id="ort1" type="number" placeholder="Sayı 1">
+        <input id="ort2" type="number" placeholder="Sayı 2">
+        <input id="ort3" type="number" placeholder="Sayı 3">
+        <button onclick="ortalama()">Hesapla</button>
+        <p id="sonucOrt"></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
